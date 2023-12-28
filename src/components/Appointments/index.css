@@ -1,0 +1,63 @@
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-card {
+  height: 80%;
+  width: 85%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.add-appointment-container {
+  width: 85%;
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.appointment-img {
+  height: 250px;
+  width: 250px;
+}
+.main-heading {
+  font-size: 20px;
+}
+.input {
+  height: 30px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.label {
+  margin-top: 10px;
+}
+.add-button {
+  background-color: #9796f0;
+  width: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.date-label {
+  margin-top: 20px;
+}
+.appointments-heading {
+  font-size: 20px;
+}
+.submit-button {
+  background-color: transparent;
+  border: 1px solid #9796f0;
+  color: #9796f0;
+  border-radius: 10px;
+}
+.header-with-filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
